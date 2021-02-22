@@ -1,12 +1,15 @@
 import './App.css';
-import Header from './Header';
-import Technologies from './Technologies';
+import Header from './Components/Header';
+import NavigationBar from './Components/NavigationBar';
+import Profile from './Components/Profile';
+
 
 const App = () => {
   return (
-    <div>
+    <div className='app-wrapper'>
       <Header />
-      <Technologies />
+      <NavigationBar />
+      <Profile />
     </div>
   );
 }
