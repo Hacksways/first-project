@@ -2,3 +2,8 @@
     padding: 3px;
     color: white;
 }
+
+.dialog a {
+    color: yellow;
+    text-decoration: none;
+}
