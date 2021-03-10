@@ -4,6 +4,7 @@
     padding: 10px;
 }
 
+
 .item a {
     color: #ff0080;
     text-decoration: none;
@@ -12,3 +13,36 @@
 .item a.active {
     color: #8000ff;
 }
+
+.appSettings {
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.appFriends {
+
+}
+
+.wordFriends {
+    margin-top: 70px;
+    font-size: xxx-large;
+}
+
+.avatarsFriends {
+    max-width: 210px;
+}
+
+.itemFriends {
+    display: inline-block;
+    text-align: center;
+}
+
+.avatarsFriends img {
+    display: block;
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
