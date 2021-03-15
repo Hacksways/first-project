@@ -1,0 +1,23 @@
+.avatarsFriends {
+    max-width: 216px;
+}
+
+.itemFriends {
+    display: inline-block;
+    text-align: center;
+}
+
+.itemFriends img {
+    display: block;
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+
+
+
+

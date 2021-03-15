@@ -1,18 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import state from './Redux/state';
+import state from './Redux/state.jsx';
+import rerenderEntireTree from "./render";
 
+rerenderEntireTree(state);
 
-ReactDOM.render(
-    <React.StrictMode>
-        <App postsData={state.profilePage.postsData} dialogsData={state.messagesPage.dialogsData}
-             messagesData={state.messagesPage.messagesData}/>
-    </React.StrictMode>,
-    document.getElementById('root')
-);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
