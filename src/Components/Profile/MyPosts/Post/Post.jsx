@@ -1,9 +1,11 @@
 import s from './Post.module.css'
+import walrus from '../../../../Images/Walrus.jpg'
 
 const Post = (props) => {
+
     return (
         <div className={s.item}>
-            <img src="https://ribalych.ru/wp-content/uploads/2017/10/neudachnye-snimki-zhivotnyx_025.jpg"/>
+            <img src={walrus}/>
             {props.message}
             <div>
                 <span>Like {props.likes_count}</span>

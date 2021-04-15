@@ -1,10 +1,11 @@
 import s from './ProfileInformation.module.css'
+import coast from '../../../Images/Сoast.jpg'
 
 const ProfileInformation = (props) => {
     return (
         <div>
             <div>
-                <img src='https://pbs.twimg.com/media/CBGsPZcUkAAsJXi.jpg'/>
+                <img src={coast}/>
             </div>
             <div className={s.avatarAndDescriptionBlock}>
                 Avatar and description
