@@ -14,12 +14,12 @@ const App = (props) => {
     return (
         <div className='app-wrapper'>
             <Header/>
-            <NavigationBar friendsAndAvatars={props.store.getState().sidebar.friendsAndAvatars}/>
+            <NavigationBar friendsAndAvatars={props.state.sidebar.friendsAndAvatars}/>
             <div className='app-wrapper-content'>
                 <Route path='/profile'
-                       render={() => <Profile profilePage={props.store.getState().profilePage} addPost={props.store.addPost}
-                                              updateNewPostText={props.store.updateNewPostText}/>}/>
-                <Route path='/dialogs' render={() => <Dialogs messagesPage={props.store.getState().messagesPage}/>}/>
+                       render={() => <Profile profilePage={props.state.profilePage}
+                                              dispatch={props.dispatch}/>}/>
+                <Route path='/dialogs' render={() => <Dialogs messagesPage={props.state.messagesPage}/>}/>
                 <Route path='/news' render={News}/>
                 <Route path='/music' render={Music}/>
                 <Route path='/settings' render={Settings}/>
