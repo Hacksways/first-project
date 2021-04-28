@@ -21,16 +21,12 @@ let store = {
                 {id: '3', name: 'Mark'},
                 {id: '4', name: 'Maks'},
             ],
-
             messagesData: [
                 {message: 'Yo'},
                 {message: 'Whats up?'},
                 {message: 'Hi, fine, learning'},
             ],
-
             newMassageText: ''
-
-
         },
         sidebar: {
             friendsAndAvatars: [
