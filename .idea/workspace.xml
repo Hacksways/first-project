@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f1797ad4-b8cf-4886-bd3a-5dcacb6048e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPostsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SIdebar/sidebarContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/messages-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/messages-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/sidebar-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/store.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavigationBar/NavigationBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavigationBar/NavigationBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SIdebar/sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SIdebar/sidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +54,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/SIdebar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aleksey\Desktop\Projects\first-project\src\Components\SIdebar" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -91,7 +102,9 @@
       <workItem from="1619029875628" duration="6456000" />
       <workItem from="1619284186538" duration="12058000" />
       <workItem from="1619373159430" duration="8924000" />
-      <workItem from="1619633250710" duration="6266000" />
+      <workItem from="1619633250710" duration="8566000" />
+      <workItem from="1619860066108" duration="5080000" />
+      <workItem from="1619948232709" duration="2865000" />
     </task>
     <servers />
   </component>
@@ -122,19 +135,17 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Redux/store.jsx</url>
-          <line>55</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Redux/messages-reducer.js</url>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Redux/store.jsx</url>
-          <line>17</line>
-          <properties lambdaOrdinal="-1" />
+          <url>file://$PROJECT_DIR$/src/Components/Profile/Profile.jsx</url>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

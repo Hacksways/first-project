@@ -1,6 +1,6 @@
 import s from './NavigationBar.module.css';
 import {NavLink} from "react-router-dom";
-import Sidebar from "../SIdebar/sidebar";
+import SidebarContainer from "../SIdebar/sidebarContainer";
 
 const NavigationBar = (props) => {
 
@@ -27,7 +27,7 @@ const NavigationBar = (props) => {
             </div>
             <div className={s.sidebar}>
                 <span>Friends</span>
-                <Sidebar friendsAndAvatars={props.friendsAndAvatars}/>
+                <SidebarContainer store={props.store}/>
             </div>
         </nav>
     );
