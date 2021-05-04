@@ -1,12 +1,17 @@
-import Friends from "./Friends/friends";
 import Sidebar from "./sidebar";
+import StoreContext from "../../StoreContext";
 
 
 const SidebarContainer = (props) => {
-    debugger
-    let friendsElements = props.store.getState().sidebar.friendsAndAvatars
-
-    return (<Sidebar friendsAndAvatars={friendsElements}/>)
+    return (
+        <StoreContext.Consumer>
+            {(store) => {
+                let friendsElements = store.getState().sidebar.friendsAndAvatars
+                return <Sidebar friendsAndAvatars={friendsElements}/>
+            }
+            }
+        </StoreContext.Consumer>
+    )
 }
 
 

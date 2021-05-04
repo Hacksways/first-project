@@ -27,7 +27,7 @@ const NavigationBar = (props) => {
             </div>
             <div className={s.sidebar}>
                 <span>Friends</span>
-                <SidebarContainer store={props.store}/>
+                <SidebarContainer/>
             </div>
         </nav>
     );

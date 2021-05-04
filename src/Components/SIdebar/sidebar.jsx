@@ -3,7 +3,6 @@ import Friends from "./Friends/friends";
 
 
 const Sidebar = (props) => {
-    debugger
     let friendsElements = props.friendsAndAvatars.map(f => <Friends name={f.name} avatar={f.avatar}/>)
     return (
         <div className={s.avatarsFriends}>

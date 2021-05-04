@@ -13,12 +13,12 @@ const App = (props) => {
     return (
         <div className='app-wrapper'>
             <Header/>
-            <NavigationBar store={props.store}/>
+            <NavigationBar/>
             <div className='app-wrapper-content'>
                 <Route path='/profile'
-                       render={() => <Profile store={props.store}/>}/>
+                       render={() => <Profile/>}/>
                 <Route path='/dialogs'
-                       render={() => <DialogsContainer store={props.store}/>}/>
+                       render={() => <DialogsContainer/>}/>
                 <Route path='/news' render={News}/>
                 <Route path='/music' render={Music}/>
                 <Route path='/settings' render={Settings}/>

@@ -2,7 +2,6 @@ import s from './friends.module.css'
 
 
 const Friends = (props) => {
-
     return (
         <div className={s.itemFriends}>
             <img

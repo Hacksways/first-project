@@ -13,7 +13,6 @@ const MyPosts = (props) => {
 
     let onPostChange = (e) => {
         let text = e.target.value;
-        debugger
         props.updateNewPostText(text)
     }
 
