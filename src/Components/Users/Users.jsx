@@ -16,7 +16,7 @@ const Users = (props) => {
             {
             id: 2,
             img: lion,
-            follow: false,
+            followed: false,
             name: 'Artur',
             status: 'I am the king cobra!',
             location: {country: 'Ukraine', city: 'Kyiv'}
@@ -24,7 +24,7 @@ const Users = (props) => {
             {
             id: 3,
             img: lion,
-            follow: true,
+            followed: true,
             name: 'Aleksey',
             status: '(Sneaks)',
             location: {country: 'Russia', city: 'Murmansk'}

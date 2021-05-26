@@ -6,15 +6,18 @@ let initialState = {
     friendsAndAvatars: [
         {
             avatar: snake,
-            name: 'Artur'
+            name: 'Artur',
+            id: '1'
         },
         {
             avatar: owl,
-            name: 'Aleksey'
+            name: 'Aleksey',
+            id: '2'
         },
         {
             avatar: raven,
-            name: 'Mark'
+            name: 'Mark',
+            id: '3'
         },
     ]
 }
