@@ -1,4 +1,3 @@
-import * as axios from "axios";
 import s from "./Users.module.css";
 import lion from "../../Images/Lion.png";
 import React from "react";
